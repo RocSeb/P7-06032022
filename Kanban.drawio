@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T15:20:33.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70" etag="bMUYIS32RTqz51Lw3-p6" version="16.6.3" type="github"><diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">7ZrLcpswFIafxsvMgAiELIOdpJ3mNnVmOu2mI4MKqgWiQsROn75HIBljsOOMW9cLVrF+HQ66/N9BOB4543R5K3Ce3POIsBGyouXImYwQshFy4I9SXo3i2LUSCxpprRGm9DfRoqXVkkakaAVKzpmkeVsMeZaRULY0LARftMN+cNa+a45j0hGmIWZd9QuNZFKrvms1+gdC48Tc2bZ0T4pNsBaKBEd8sSY51yNnLDiX9ad0OSZMrZ5Zl/q6my29q4EJksl9LvjuptPn8mkpzr7RT5/nwWT69eJMZ3nBrNQT1oOVr2YFigVNGc6gFfzgmZzqHhh/ECaURXf4lZdqBIXE4dy0goQL+hviMYMuGwToFlJvMPJbEVN1pQ4TpICYJzOtTekeK29ZK/UOF1ILIWcM5wWdVeNTSopFTLOAS8lTLZnZ3FDGxpxxAXrGV7O7wSllyqtPRKQQBmNA1j0WcyLM/OsZ2B60c04zWRnMDUbuBJQXIiQF91wxGmfQIXleTz2cB1xEKkszeFyPtF4cwecrh6m1LeZEhonujmihgu9LMP60CtUdevvgrmS51Rf2ym3AKeEpkeIVQswFnjaoRtTXzUVjd/dca8ma1c+NiDVi8Sp140L4oI1YNfnsp4IUWQzPCKsve36E9uTR+A7LUud7IIta3OlgtDY57fh+83aX+O0NT2TKjHHW7Gv37PRMuywochzSLF65zu01yi502nZBlpGmdWajdQDoQafLWD8pLbfVK7VJBwBj2C84U3tSaSZshJwry0Vosq8rt9ejrlW1NaFsbFrT9vusaaN3WxOa2p3bnYqLOSgwRo+pfZoJ+BTLasK1AnuftQzo/SpVfa+sdrbQQ7yCkIyD3VgTsJmJbgoqw/bURWVMldi28mVfWlejhVyTEWZcJ23fCOTOzUGrp2bkajMZDkkCD1Qi2g/Znbw6O3ldJFQS5XPVXsCZooGwv0yuW3DLk8puoHxW5bhmhZdZRCLdjUWo0b7spbWFxx5lA4dJKcitGv7E16P8Ygy6d91+s951izlq13KTdR2Yvlruv7+U788LGng5gJfzgZfj8WKfBDDOAMwBwLgDMEd8wPxfYCaPHx9uu28OHxUjueAxnIiLPSzjDe8Qp/IOYVmeZ1n/4h3CZPE3HHwS7xTnQ8k/oORfDCX/IGK8ncSc4juFO/ByAC/+wMvxePnP7xSTx4fr7glpzNOcEQmL/7ZbLofT0amcjuzgyr5G//B05HineDryhmp/QLW3rZ0AD+X+LWQudyJzisejiwGYQ4CxB2COB8xpfOfqD8QcQszu/8IPxPzdR8zxiIFm8wulKnTth17O9R8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-06T15:52:48.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.70" etag="RRvwo67S7juuo1NB-_pS" version="16.6.3" type="github">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="1381" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-1" value="Recipe List Json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="443" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-3" target="_r8RPVm86ZSnQvmBtSnM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-3" target="_r8RPVm86ZSnQvmBtSnM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-3" value="Is the search bar empty?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="120" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-4" target="_r8RPVm86ZSnQvmBtSnM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-4" target="_r8RPVm86ZSnQvmBtSnM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-4" value="is the filter tag empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-7" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-8" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-9" value="Displays the complete list of recipes" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="15" y="400" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-11" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-12" target="_r8RPVm86ZSnQvmBtSnM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-12" value="Update the array of recipe filtered and display it" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-14" target="_r8RPVm86ZSnQvmBtSnM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="_r8RPVm86ZSnQvmBtSnM-14" target="_r8RPVm86ZSnQvmBtSnM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-14" value="is the filter tag empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="290" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-16" value="Display the recipes filtered by the search bar" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="405" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-19" value="Display the recipes filtered by the search bar and the filter tag" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="740" y="405" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-22" value="Display the recipes filtered by the filter tag" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-24" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-25" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="329" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_r8RPVm86ZSnQvmBtSnM-26" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="329" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
