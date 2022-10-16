@@ -102,9 +102,8 @@ function displayLists(obj, objlist, item, targetFilter) {
       o.input.style.width = "170px";
       o.isFilterOpen = false;
     }
-
     obj.content.style.display = "grid";
-    obj.input.style.width = "710px";
+    obj.input.style.width = "70vw";
     obj.isFilterOpen = true;
   } else if (targetFilter.includes(item) && obj.isFilterOpen == true) {
     obj.content.style.display = "none";

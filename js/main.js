@@ -24,12 +24,24 @@ function data() {
 //// display recipes function ////
 
 function displayRecipes(recipesList) {
-    const recipesSection = document.getElementById("recipes");
-    recipesSection.innerHTML = "";
-    recipesList.forEach((recipe) => {
-        recipesSection.appendChild(new RecipesCard(recipe).buildCard());
-    });
+  console.time("loop");
+  const recipesSection = document.getElementById("recipes");
+  recipesSection.innerHTML = "";
+  recipesList.forEach((recipe) => {
+    recipesSection.appendChild(new RecipesCard(recipe).buildCard());
+  });
+  console.timeEnd("loop");
 }
+
+// function displayRecipes(recipeList) {
+//   console.time("loop");
+//   const recipesSection = document.getElementById("recipes");
+//   recipesSection.innerHTML = "";
+//   for (let i = 0; i < recipeList.length; i++) {
+//     recipesSection.appendChild(new RecipesCard(recipeList[i]).buildCard());
+//   };
+//   console.timeEnd("loop");
+// }
 
 //// generate and create filters lists ////
 

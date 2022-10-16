@@ -26,7 +26,6 @@ function searchBar(recipesList) {
 
     // displays recipes under conditions
     if (input.length >= 3) {
-      console.log("if")
       if (filteredRecipies.length > 0) {
         recipesList = filteredRecipies;
         displayRecipes(recipesList);

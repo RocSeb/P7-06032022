@@ -22,9 +22,10 @@
 }
 
 #filters {
-  margin: 15px 0px 25px 100px;
+  margin: 25px 0px 25px 0px;
   display: flex;
-  max-width: 1240px;
+  justify-content: center;
+  max-width: 100%;
   gap: 20px;
   height: 70px;
   z-index: 10;
@@ -106,9 +107,15 @@
   overflow: visible;
 }
 
+#content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 body {
-  max-width: 1440px;
+  max-width: 100vw;
   margin: auto;
+  box-sizing: border-box;
 }
 body header .images {
   display: flex;
@@ -155,13 +162,13 @@ body header .search-bar button {
 }
 body #recipes {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
   margin-bottom: 50px;
-  width: 1240px;
+  width: 100%;
 }
 body #recipes .missing {
   font: 400 25px "Lato", sans-serif;
@@ -169,8 +176,8 @@ body #recipes .missing {
   text-align: center;
 }
 body #recipes .recipeCard {
-  width: 380px;
-  height: 364px;
+  width: 30%;
+  height: 400px;
   cursor: pointer;
 }
 body #recipes .recipeCard h2,
@@ -258,4 +265,44 @@ body #recipes .recipeCard .textContent .textContentDown .description {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
   overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  body #recipes .recipeCard {
+    width: 45vw;
+    height: 364px;
+    cursor: pointer;
+  }
+  #filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+}
+@media screen and (max-width: 460px) {
+  body #recipes .recipeCard {
+    width: 80vw;
+    height: 364px;
+    cursor: pointer;
+  }
+  #filters form .filter-button input {
+    width: 100%;
+    padding-left: 2px;
+    font-size: 16px;
+  }
+  #filters form .list-content {
+    margin: -7px 0 0 0;
+    padding: 0;
+    color: #fff;
+    list-style: none;
+    font: 400 18px "Lato", sans-serif;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: 2fr;
+    gap: 10px 20px;
+    padding: 27.5px;
+    border-radius: 5px;
+    display: none;
+    z-index: 10;
+}
 }
